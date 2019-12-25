@@ -4,7 +4,7 @@
     "slug": "octoprint-dev",
     "description": "Octoprint add-on for Hass.io",
     "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
-    "url": "https://github.com/fredrikbaberg/hassio-addons",
+    "url": "https://github.com/blujus/hassio-addons",
     "startup": "application",
     "boot": "auto",
     "ports": {
