@@ -4,7 +4,7 @@
     "slug": "octoprint-slim",
     "description": "Octoprint add-on for Hass.io, slimmed version (untested)",
     "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
-    "url": "https://github.com/fredrikbaberg/hassio-addons",
+    "url": "https://github.com/blujus/hassio-addons",
     "startup": "application",
     "webui": "http://[HOST]:[PORT:5000]",
     "boot": "manual",
