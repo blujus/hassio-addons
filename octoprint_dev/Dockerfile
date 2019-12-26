@@ -33,6 +33,9 @@ RUN apk add --no-cache jq supervisor ffmpeg py-pip \
     && make --quiet \
     && make install --quiet \
     && \
+    # Python Install
+    apk add --no-cache python2
+    apk add py-pip
     # Cura
     cd /tmp/CuraEngine-${CURA_VERSION} \
     && mkdir -p build \
